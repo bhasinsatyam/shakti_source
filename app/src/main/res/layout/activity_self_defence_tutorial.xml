@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".self_defence_tutorial"
+    android:background="@drawable/background"
+
+
+
+   >
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:id="@+id/webView"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250sp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="@string/self_defence_strategies"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="#f1faee"
+                            android:orientation="vertical"
+                            android:padding="15sp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/Strategy1_Heading"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="15sp"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/strategy1_description"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy2_Header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy2_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy3_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy3_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy4_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy4_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy5_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy5_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy6_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy6_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy7_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy7_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy8_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy8_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy9_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy9_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="375dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="17sp"
+                    app:cardCornerRadius="15dp"
+                    app:strokeColor="@color/pink"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="#f1faee"
+                        android:orientation="vertical"
+                        android:padding="15sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy10_header"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15sp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/strategy10_description"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

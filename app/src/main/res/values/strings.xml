@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">shakti source</string>
+    <string name="logo_of_app">logo of app</string>
+    <string name="source_of_power">SOURCE OF POWER</string>
+    <string name="sos_alert">SOS Alert</string>
+    <string name="siren">Siren</string>
+    <string name="voice_recording">Voice Recording</string>
+    <string name="helpline_numbers">Helpline Numbers</string>
+    <string name="feel_safe_everywhere">Feel Safe Everywhere</string>
+    <string name="tutorial">tutorial</string>
+
+    <string name="stop">stop</string>
+    <string name="start">Start</string>
+    <string name="sos_will_be_sent_to_n">SOS Will Be Sent To\n</string>
+    <string name="sos_will_be_sent_to">SOS Will Be Sent To\n</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <string name="language_prompt">Select a language</string>
+    <string name="change_language">Change Language</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="shakti_source">SHAKTI SOURCE</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="emergency_helpline">Emergency Helpline</string>
+    <string name="todo">TODO</string>
+    <string name="police_100">police 100</string>
+    <string name="fire_safety_101">FIRE SAFETY 101:</string>
+    <string name="women_helpline_181">women helpline 181</string>
+    <string name="ambulance_102">ambulance 102</string>
+    <string name="enter_number_to_nsend_sms_nin_nemergency">Enter Number To\nSend SMS\nin\nEMERGENCY!</string>
+    <string name="about_us_description">The Shakti source Women Safety Android application is a robust and versatile tool meticulously crafted to prioritize the safety and security of women in diverse scenarios. With its Emergency SOS Button and One-click Calling to Emergency helplines, users can swiftly alert designated contacts and authorities, ensuring immediate assistance during critical situations. The app seamlessly integrates Location Tracking and Contacts, enabling efficient communication and precise tracking of user whereabouts. Customizable Alerts and Audio Calling features offer flexibility and convenience, adapting to individual preferences and needs. Moreover, User Profiles allow for personalized settings and contact management, enhancing user experience and accessibility. The application\'s Offline Functionality ensures uninterrupted access to essential features even in areas with limited connectivity, bolstering its reliability in emergencies. Privacy and Security measures are meticulously implemented to safeguard user data and uphold confidentiality, instilling trust and confidence among users. Accessibility features cater to diverse needs, ensuring inclusivity and usability for all individuals. Furthermore, the app provides avenues for Feedback and Reporting, fostering continuous improvement and enabling users to contribute to the enhancement of safety measures.
+ </string>
+    <string name="self_defence_strategies">10 Self Defense Strategies Every Woman Needs To Know</string>
+    <string name="Strategy1_Heading"><br>Strategy #1 \n</br>Awareness of Surroundings and the People In Them </string>
+    <string name="strategy1_description"><br>Awareness is as simple as it is powerful. It deters criminals, lets you detect threats ahead of time and gives your intuition the information it needs to protect you. An alert person is more difficult to attack than a distracted person and therefore less likely to be selected for crime.\n</br>
+        <br>\n</br>Predators aim to catch victims off guard so that by the time they realize what\'s happening it\'s too late. Your eyes, ears, and intuition have been perfected over centuries for the sole purpose of keeping you alive. They are highly effective survival tools- never allow them to be shut down in public.</string>
+    <string name="strategy2_Header"><br>Strategy #2\n</br>Trust Your Instincts</string>
+    <string name="strategy2_description">Many women who were attacked say they had a bad feeling beforehand but ignored it. In order to not appear rude or paranoid we so often interrogate and deny our own survival instincts. But that gut feeling that something isn\'t right is the most important warning sign that you are not safe. Instincts work faster than intellect when it comes to your safety and require no further validation. Always listen to your gut feeling about a person, place or situation.</string>
+    <string name="strategy3_header"><br>Strategy #3\n</br>Present Yourself Confidently</string>
+    <string name="strategy3_description">Body language is one of the most important indicators of a persons willingness to fight back. Studies show that predators judge vulnerability by observing how people walk. Someone who walks confidently with their shoulders back and head up and moves swiftly with purpose is perceived to be likely and capable of standing up for themselves. Someone who hangs their head, avoids eye contact, and walks with a sense of defeatedness is perceived to be unlikely to put up a fight. Confident body language is what tells a predator within a seconds glance that you are not an easy target. When you move, move with confidence.</string>
+    <string name="strategy4_header"><br>Strategy #4\n</br>Deny Attack Opportunities</string>
+    <string name="strategy4_description">Criminals spend their lives honing these tactics while the average person spends little time considering their vulnerability to them. Like a master checkmates a novice, the criminal is usually ten steps ahead of the victim when setting their trap. Our defensive strategy needs to include actively denying openings for attack. Other people are your greatest protection. Stick with friends and take paths with people around. Observe those around you- if someone seems to be following you, paying too much attention to you, or is in a position where they could surprise or trap you, stay away from them. If someone on an elevator gives you the creeps, wait for the next one. If someone is lingering by your car or front door, wait for them to leave. You cannot defend what you cannot see which is why most attacks come from behind.</string>
+    <string name="strategy5_header"><br>Strategy #5\n</br>Recognize Lures</string>
+    <string name="strategy5_description">Lures are used to lower your guard and give the attacker an excuse to get close enough to attack. They are much more common than physical force attacks. For example: Ted Bundy used the \'help me\' trick by asking women for help putting things in his trunk. The help me trick can look like asking for directions, looking for a lost pet, asking to use your phone, etc. Unsolicited offers for help are also very common. Offers to help with groceries, give you a ride, help you with your car that broke down, etc. Child predators entice children to approach their car by offering free stuff, showing animals, asking for help, or by simply starting a conversation. Home invaders bait victims to open the door by pretending to be a salesman or neighbour. Fake emergencies are a guise used by criminals like abductors and home invaders.</string>
+    <string name="strategy6_header"><br>Strategy #6\n</br>Say No and Mean It</string>
+    <string name="strategy6_description">Predators use conversation to \'interview\' you to see if you will be an easy target. When someone speaks to you, speak with confidence and firmness. Don\'t shy away from eye contact. Say no to anything that you do not want to do or to anything that would put you in danger like getting close to someones car or going in their house. No is a complete sentence requiring no explanation or negotiation. The ability to say no and mean it is as fundamental as self defense gets; it says \'your will will not be imposed on me.\' Also, someone who refuses to accept no as an answer is showing you that they are trying to control you, and that\'s a very important danger signal.</string>
+    <string name="strategy7_header"><br>Strategy #7\n</br>Protect Your Personal Space</string>
+    <string name="strategy7_description">Understanding distance is a key skill in martial arts and self defense. If someone wants to hurt you they must first get close to you. The closer they get they fewer options you have. Aim to keep people at a two arms length distance away. That\'s your personal space. Anyone within that space is a potential threat. If someone speaks to you in public respond from your safe distance. If they inch closer to you maintain distance by moving away. If the attacker is far enough from you that they can\'t reach out and grab you from behind, run. If you can\'t run away without being grabbed, keep as much distance from the attacker as you can but face them head on so you are ready to defend yourself.</string>
+    <string name="strategy8_header"><br>Strategy #8\n</br>Be The Threat</string>
+    <string name="strategy8_description">If an attacker chooses you he has made the calculation that he can get away with the attack. This is where you prove him wrong and show him that you are the threat to him— not the other way around. Once a physical attack is predicted delay it as long as you can by running, keeping your distance, or forcing them around physical obstacles. Their window of opportunity is small and vanishes with each passing second. Draw attention to the attack by yelling things that alert others and frighten the attacker: HELP, GET AWAY FROM ME, RAPIST, POLICE; as loud as you can. If you can\'t run away, face them head on and put your hands up to a \'stop position\' at temple height (or a fighting stance). If they attack you fight back with as much aggression as you can. Your goal isn\'t to win the fight but to create an opening for escape. When you have enough space to turn your back, run.</string>
+    <string name="strategy9_header"><br>Strategy #9\n</br>Use Simple Weapons</string>
+    <string name="strategy9_description">Even experienced fighters are wise to stick to the most simple and effective tools available in a real life situation. Use the hard, pointy parts of your body to strike soft parts of your attacker. Some safe, easy to learn strikes: With the point of your elbow, elbow the face (chin, temple, back of the head). Turn your body with the elbow to increase power.Eye poke: using your rear hand, drive your first two fingers aggressively towards the attackers eyes. Just the threat of this is enough to make an attacker move back and give you space. These are all close range strikes, meaning they can be used when someone is grabbing or choking you. Also, a groin strike usually opens the opportunity for an elbow to the face and vice versa. This strategy is called \'high-low\'. If you strike, do so aggressively and without hesitation the first time.</string>
+    <string name="strategy10_header"><br>Strategy #10\n</br>Never Go to a Second Location</string>
+    <string name="strategy10_description">The secondary location is the place that an abductor is trying to take the victim. It\'s usually a private place that allows them to commit their desired crime without risk. You must do everything you can to defend yourself where the attack first happens. This is where you have the most advantage over the attacker and where the attacker has the greatest chance of getting caught or giving up. The attacker may threaten to hurt you if you don\'t comply, or promise not to hurt you if you do. This is only to remove the possibility of successful resistance. If an attacker is willing to hurt you in public with risk, imagine what he is capable of doing in a risk-free isolated location. In self defense, options equal survival. Never let an attacker remove your options.</string>
+
+</resources>
+
